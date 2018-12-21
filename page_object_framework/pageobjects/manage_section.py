@@ -159,8 +159,8 @@ class ManageSection:
         job_task3 = self.driver.find_element_by_id("id_fkeytasks-2-name")
         job_task3.send_keys("System Upgradation")
         self.driver.find_element_by_id("add").click()
-        job_task3 = self.driver.find_element_by_id("id_fkeytasks-3-name")
-        job_task3.send_keys("New System Setup")
+        job_task4 = self.driver.find_element_by_id("id_fkeytasks-3-name")
+        job_task4.send_keys("New System Setup")
         self.driver.find_element_by_xpath(
             "/html/body/div[3]/div[2]/div/div/form/input[3]").click()
         time.sleep(5)
